@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c775d8b8cc99c6848813d31804db4fd2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - defaultHexagonPrefab: {fileID: 6118767687673976476, guid: 09a1caf6dde70fe47a134951665b7ff1,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
