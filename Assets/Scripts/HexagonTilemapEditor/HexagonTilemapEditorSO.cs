@@ -2,27 +2,26 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Sirenix.OdinInspector;
 using Unity.EditorCoroutines.Editor;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.Tilemaps;
-using File = UnityEngine.Windows.File;
 using Random = UnityEngine.Random;
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Hexagon Tilemap Editor/Config", fileName = "config", order = 0)]
-public class HexagonTilemapEditorSO : SerializedScriptableObject
+public partial class HexagonTilemapEditorSO : SerializedScriptableObject
 {
     [Title("Hexagon Tilemap Editor")]
-    [Title("Tilemap size", HorizontalLine = false, Bold = false)]
-    [SerializeField] [HideLabel]
+    [SerializeField] [InlineProperty(LabelWidth = 13)]
     private Vector2Int tilemapSize = new Vector2Int(1000, 1000);
 
-    [Header("Hunk size")]
-    [SerializeField] [HideLabel]
-    private Vector2Int hunkSize = new Vector2Int(100, 100);
+    [FormerlySerializedAs("hunkSize")]
+    [SerializeField] [InlineProperty(LabelWidth = 13)]
+    private Vector2Int _hunkSize = new Vector2Int(100, 100);
 
     [SerializeField]
     private int startXIndex = 1;
@@ -54,161 +53,145 @@ public class HexagonTilemapEditorSO : SerializedScriptableObject
     [Required]
     private Grid grid;
 
-    [Button("Generate Tiles")]
-    [DisableIf("@tilemap == null")]
-    private void GenerateTilesButton()
+    private const string HUNKS_SO_PATH = "Assets/ScriptableObjects/Hunks/";
+
+    [Title("As scriptable objects")]
+    [Button("Generate Hunks")]
+    public void GenerateHunksBtn()
     {
         EditorCoroutineUtility.StartCoroutine(GenerateHunks(), this);
     }
 
     private IEnumerator GenerateHunks()
     {
-        OnClearTilesButton();
-
-        // Describes how big will be hunk part
         Vector2Int hunksToGenerateCount = GetHunksCountToGenerate();
         yield return null;
 
         yield return new WaitForSeconds(0.5f);
-        while (isDeletingHunks)
+        while (_isDeletingHunks)
         {
-            Debug.Log("Waiting for deleting existing hunks.");
+            // Waiting for deleting existing prewious hunks
             yield return new WaitForSeconds(0.2f);
         }
-
+        
         int hunksCount = hunksToGenerateCount.x * hunksToGenerateCount.y;
-        EditorUtility.DisplayProgressBar("Generating hunks", "Generating hunks", (float)0 / hunksCount);
+        EditorUtility.DisplayProgressBar(
+            title: "Generating hunks",
+            info: "Generating hunks",
+            progress: (float)0 / hunksCount);
+
+        HunksManagerSo hunksManagerSo = CreateInstance<HunksManagerSo>();
+
 
         for (int i = 0; i < hunksToGenerateCount.x; i++)
         {
             for (int j = 0; j < hunksToGenerateCount.y; j++)
             {
-                GenerateHunk(i, j);
-                
+                HunkSO hunkSo = GenerateHunk(i, j);
+                hunksManagerSo.AddHunk(
+                    new Vector4Int(
+                        hunkSo.MinCoords.x,
+                        hunkSo.MinCoords.y,
+                        hunkSo.MaxCoords.x,
+                        hunkSo.MaxCoords.y),
+                    hunkSo);
+
                 EditorUtility.DisplayProgressBar(
-                    "Generating hunks",
-                    "Generating hunks",
-                    (float)((i + 1) * (j + 1)) / hunksCount);
-                
+                    title: "Generating hunks",
+                    info: "Generating hunks",
+                    progress: (float)((i + 1) * (j + 1)) / hunksCount);
+
                 yield return null;
             }
         }
         
+        AssetDatabase.CreateAsset(hunksManagerSo,
+            HUNKS_SO_PATH + "HunksManager.asset");
+        
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
         EditorUtility.ClearProgressBar();
-
-        EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
     }
 
-    private void GenerateHunk(int xIndex, int yIndex)
+    private HunkSO GenerateHunk(int xIndex, int yIndex)
     {
         // Describes how lot of specifics tiles will be generate.
         HexTileSetup[] configurations = GenerateConfigurations();
 
-        GameObject hunkGO = new GameObject(
-            name: $"Hunk_{xIndex}_{yIndex}",
-            components: typeof(Hunk));
-        hunkGO.transform.parent = tilemap.transform;
-        Hunk hunk = hunkGO.GetComponent<Hunk>();
+        HunkSO hunkSo = CreateInstance<HunkSO>();
 
         int currentConfigIndex = 0;
-        for (int i = 0; i < hunkSize.x; i++)
+        for (int i = 0; i < _hunkSize.y; i++)
         {
-            int globalTileIndexY = i + yIndex * hunkSize.y;
+            // Index to get this tile on grid
+            int globalTileIndexY = i + yIndex * _hunkSize.y;
             if (globalTileIndexY >= tilemapSize.y) break;
 
-            for (int j = 0; j < hunkSize.x; j++)
+            for (int j = 0; j < _hunkSize.x; j++)
             {
-                int globalTileIndexX = j + xIndex * hunkSize.x;
+                int globalTileIndexX = j + xIndex * _hunkSize.x;
                 if (globalTileIndexX >= tilemapSize.x) break;
-                HexTile hexTile = GenerateTile(globalTileIndexX, globalTileIndexY, configurations,
-                    ref currentConfigIndex);
-                hexTile.transform.parent = hunkGO.transform;
 
-                hunk.RegisterTile(
-                    key:new Vector2Int(globalTileIndexX + startXIndex, globalTileIndexY + startYIndex), 
-                    hexTile: hexTile);
+                HunkSO.HexData hexData =
+                    new HunkSO.HexData(
+                        prefabId: configurations[currentConfigIndex].id,
+                        coordinates: new Vector2Int(globalTileIndexX, globalTileIndexY));
+                hunkSo.AddHex(hexData);
+
+                currentConfigIndex++;
             }
         }
+        
+        AssetDatabase.CreateAsset(hunkSo,
+            HUNKS_SO_PATH + $"Hunk_{hunkSo.MinCoords.x}_{hunkSo.MinCoords.y}" +
+            $"_{hunkSo.MaxCoords.x}_{hunkSo.MaxCoords.y}.asset");
 
-        PrefabUtility.SaveAsPrefabAssetAndConnect(
-            hunkGO,
-            $"Assets/Prefabs/Hunks/{hunkGO.name}.prefab",
-            InteractionMode.AutomatedAction);
-        Debug.Log($"Saved hunk: {hunkGO.name}");
+        return hunkSo;
     }
 
-    private HexTile GenerateTile(
-        int globalTileIndexX,
-        int globalTileIndexY,
-        HexTileSetup[] configurations,
-        ref int currentConfigIndex)
+    [Button("Clear hunks")]
+    private void ClearHunksBtn()
     {
-        HexTile hexTile = Instantiate(hexTilePrefab);
-        hexTile.gameObject.name = $"HexTile{globalTileIndexX + startXIndex}_{globalTileIndexY + startYIndex}";
-        hexTile.SpriteRenderer.sprite = configurations[currentConfigIndex].sprite;
+        EditorCoroutineUtility.StartCoroutine(ClearHunks(), this);
+    }
+    
+    private bool _isDeletingHunks = false;
+    private IEnumerator ClearHunks()
+    {
+        _isDeletingHunks = true;
 
-        hexTile.Init(
-            coordinates: new Vector2Int(globalTileIndexX + startXIndex, globalTileIndexY + startYIndex),
-            color: configurations[currentConfigIndex].color,
-            interactable: configurations[currentConfigIndex].interactable);
+        string[] files = Directory.GetFiles(HUNKS_SO_PATH);
+        int filesCount = files.Length;
+        EditorUtility.DisplayProgressBar(
+            title: "Deleting hunks",
+            info: "Deleting hunks",
+            progress: 0f / filesCount);
+        for (int i = 0; i < filesCount; i++)
+        {
+            File.Delete(files[i]);
+            EditorUtility.DisplayProgressBar(
+                title: "Deleting hunks",
+                info: "Deleting hunks",
+                progress: i / filesCount);
+            yield return null;
+        }
 
-        hexTile.transform.position = grid.GetCellCenterWorld(new Vector3Int(
-            globalTileIndexY,
-            globalTileIndexX,
-            0));
-
-        currentConfigIndex++;
-        return hexTile;
+        _isDeletingHunks = false;
+        AssetDatabase.Refresh();
+        EditorUtility.ClearProgressBar();
     }
 
     private Vector2Int GetHunksCountToGenerate()
     {
-        int xHunksCount = (tilemapSize.x / hunkSize.x);
-        if (tilemapSize.x % hunkSize.x != 0) xHunksCount++;
-        int yHunksCount = (tilemapSize.y / hunkSize.y);
-        if (tilemapSize.y % hunkSize.y != 0) yHunksCount++;
+        int xHunksCount = (tilemapSize.x / _hunkSize.x);
+        if (tilemapSize.x % _hunkSize.x != 0) xHunksCount++;
+        int yHunksCount = (tilemapSize.y / _hunkSize.y);
+        if (tilemapSize.y % _hunkSize.y != 0) yHunksCount++;
 
         int hunksToGenerate = xHunksCount * yHunksCount;
         Debug.Log("All hunks to generate:" + hunksToGenerate);
         Debug.Log($"Hunks count to generate (XY): {xHunksCount}, {yHunksCount}");
         return new Vector2Int(xHunksCount, yHunksCount);
-    }
-
-    [Button("Clear tiles")]
-    void OnClearTilesButton()
-    {
-        EditorCoroutineUtility.StartCoroutine(ClearTiles(), this);
-    }
-
-    private bool isDeletingHunks = false;
-    private IEnumerator ClearTiles()
-    {
-        isDeletingHunks = true;
-
-        int hunksCount = tilemap.transform.childCount;
-        EditorUtility.DisplayProgressBar("Deleting hunks", "Deleting hunks", 0f / hunksCount);
-        for (int i = hunksCount - 1; i >= 0; i--)
-        {
-            // Remove prefab
-            GameObject prefab =
-                PrefabUtility.GetCorrespondingObjectFromSource(tilemap.transform.GetChild(i).gameObject);
-            string prefabPath = PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot(prefab);
-            if (File.Exists(prefabPath))
-                File.Delete(prefabPath);
-            if (File.Exists(prefabPath + ".meta"))
-                File.Delete(prefabPath + ".meta");
-            AssetDatabase.Refresh();
-
-            // Destroy game object
-            DestroyImmediate(tilemap.transform.GetChild(i).gameObject);
-
-            EditorUtility.DisplayProgressBar("Deleting hunks", "Deleting hunks", (float)i / hunksCount);
-            yield return null;
-        }
-
-        isDeletingHunks = false;
-        EditorUtility.ClearProgressBar();
-        EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
     }
 
     /// <summary>
@@ -218,7 +201,7 @@ public class HexagonTilemapEditorSO : SerializedScriptableObject
     /// <returns></returns>
     private HexTileSetup[] GenerateConfigurations()
     {
-        int tilesCount = hunkSize.x * hunkSize.y;
+        int tilesCount = _hunkSize.x * _hunkSize.y;
         HexTileSetup[] tilesForInit = new HexTileSetup[tilesCount];
 
         int currentConfigurationIndex = 0;
@@ -269,11 +252,7 @@ public class HexagonTilemapEditorSO : SerializedScriptableObject
     [Serializable]
     public class HexTileSetup
     {
-        // @formatter:off
-        public enum Color { Green, Blue, Yellow, Gray }
-        // @formatter:on
-
-        public Color color = Color.Gray;
+        public int id;
 
         [Required]
         public Sprite sprite;
