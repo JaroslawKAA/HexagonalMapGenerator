@@ -1,20 +1,21 @@
 #if UNITY_EDITOR
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Sirenix.OdinInspector;
 using Unity.EditorCoroutines.Editor;
+using Random = UnityEngine.Random;
+using System.Collections.Generic;
+using UnityEngine.Serialization;
+using Sirenix.OdinInspector;
+using System.Collections;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.Tilemaps;
-using Random = UnityEngine.Random;
+using System.Linq;
+using System.IO;
+using System;
+using Utils;
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Hexagon Tilemap Editor/Config", fileName = "config", order = 0)]
 public partial class HexagonTilemapEditorSO : SerializedScriptableObject
 {
+    // SERIALIZED
     [Title("Hexagon Tilemap Editor")]
     [SerializeField] [InlineProperty(LabelWidth = 13)]
     private Vector2Int tilemapSize = new Vector2Int(1000, 1000);
@@ -24,10 +25,13 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
     private Vector2Int _hunkSize = new Vector2Int(100, 100);
 
     [SerializeField]
-    private int startXIndex = 1;
+    private int hunkPopulatingSpeed = 50;
 
     [SerializeField]
-    private int startYIndex = 1;
+    public int startXIndex = 1;
+
+    [SerializeField]
+    public int startYIndex = 1;
 
     [SerializeField]
     [TableList(AlwaysExpanded = true)]
@@ -37,85 +41,27 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
              "Last member will be calculated automatically.")]
     private List<HexTileSetup> tilesConfiguration = new() { new HexTileSetup() };
 
-    [SerializeField]
-    [Required]
-    [AssetsOnly]
-    private HexTile hexTilePrefab;
-
-    [Header("Dependencies")]
-    [SerializeField]
-    [SceneObjectsOnly]
-    [Required]
-    private Tilemap tilemap;
-
-    [SerializeField]
-    [SceneObjectsOnly]
-    [Required]
-    private Grid grid;
-
+    // CONSTANTS
     private const string HUNKS_SO_PATH = "Assets/ScriptableObjects/Hunks/";
 
+    // PROPERTIES
+    public Vector2Int TilemapSize => tilemapSize;
+    public Vector2Int HunkSize => _hunkSize;
+    public List<HexTileSetup> TilesConfiguration => tilesConfiguration;
+    public int HunkPopulatingSpeed => hunkPopulatingSpeed;
+
+    
+    // PRIVATE METHODS
     [Title("As scriptable objects")]
     [Button("Generate Hunks")]
-    public void GenerateHunksBtn()
+    private void GenerateHunksBtn()
     {
         EditorCoroutineUtility.StartCoroutine(GenerateHunks(), this);
     }
 
-    private IEnumerator GenerateHunks()
-    {
-        Vector2Int hunksToGenerateCount = GetHunksCountToGenerate();
-        yield return null;
-
-        yield return new WaitForSeconds(0.5f);
-        while (_isDeletingHunks)
-        {
-            // Waiting for deleting existing prewious hunks
-            yield return new WaitForSeconds(0.2f);
-        }
-        
-        int hunksCount = hunksToGenerateCount.x * hunksToGenerateCount.y;
-        EditorUtility.DisplayProgressBar(
-            title: "Generating hunks",
-            info: "Generating hunks",
-            progress: (float)0 / hunksCount);
-
-        HunksManagerSo hunksManagerSo = CreateInstance<HunksManagerSo>();
-
-
-        for (int i = 0; i < hunksToGenerateCount.x; i++)
-        {
-            for (int j = 0; j < hunksToGenerateCount.y; j++)
-            {
-                HunkSO hunkSo = GenerateHunk(i, j);
-                hunksManagerSo.AddHunk(
-                    new Vector4Int(
-                        hunkSo.MinCoords.x,
-                        hunkSo.MinCoords.y,
-                        hunkSo.MaxCoords.x,
-                        hunkSo.MaxCoords.y),
-                    hunkSo);
-
-                EditorUtility.DisplayProgressBar(
-                    title: "Generating hunks",
-                    info: "Generating hunks",
-                    progress: (float)((i + 1) * (j + 1)) / hunksCount);
-
-                yield return null;
-            }
-        }
-        
-        AssetDatabase.CreateAsset(hunksManagerSo,
-            HUNKS_SO_PATH + "HunksManager.asset");
-        
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-        EditorUtility.ClearProgressBar();
-    }
-
     private HunkSO GenerateHunk(int xIndex, int yIndex)
     {
-        // Describes how lot of specifics tiles will be generate.
+        // Describes how lot of specifics tiles will be generate. E.g. 60% blue tiles
         HexTileSetup[] configurations = GenerateConfigurations();
 
         HunkSO hunkSo = CreateInstance<HunkSO>();
@@ -124,13 +70,15 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
         for (int i = 0; i < _hunkSize.y; i++)
         {
             // Index to get this tile on grid
-            int globalTileIndexY = i + yIndex * _hunkSize.y;
-            if (globalTileIndexY >= tilemapSize.y) break;
+            int globalTileIndexY = i + yIndex * _hunkSize.y + startYIndex;
+            if (globalTileIndexY >= tilemapSize.y)
+                break;
 
             for (int j = 0; j < _hunkSize.x; j++)
             {
-                int globalTileIndexX = j + xIndex * _hunkSize.x;
-                if (globalTileIndexX >= tilemapSize.x) break;
+                int globalTileIndexX = j + xIndex * _hunkSize.x + startXIndex;
+                if (globalTileIndexX >= tilemapSize.x)
+                    break;
 
                 HunkSO.HexData hexData =
                     new HunkSO.HexData(
@@ -141,12 +89,67 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
                 currentConfigIndex++;
             }
         }
-        
-        AssetDatabase.CreateAsset(hunkSo,
-            HUNKS_SO_PATH + $"Hunk_{hunkSo.MinCoords.x}_{hunkSo.MinCoords.y}" +
-            $"_{hunkSo.MaxCoords.x}_{hunkSo.MaxCoords.y}.asset");
+
+        string hunkName = $"Hunk_{hunkSo.MinCoords.x}_{hunkSo.MinCoords.y}" +
+                          $"_{hunkSo.MaxCoords.x}_{hunkSo.MaxCoords.y}.asset";
+        hunkSo.name = hunkName;
+        AssetDatabase.CreateAsset(hunkSo, HUNKS_SO_PATH + hunkName);
+        AssetDatabase.SaveAssets();
 
         return hunkSo;
+    }
+
+    private IEnumerator GenerateHunks()
+    {
+        Vector2Int hunksToGenerateCount = GetHunksCountToGenerate();
+        yield return null;
+
+        yield return new WaitForSeconds(0.5f);
+        while (_isDeletingHunks)
+        {
+            // Waiting for deleting existing previous hunks
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        int hunksCount = hunksToGenerateCount.x * hunksToGenerateCount.y;
+        EditorUtility.DisplayProgressBar(
+            title: "Generating hunks",
+            info: "Generating hunks 0,0",
+            progress: (float)0 / hunksCount);
+
+        HunksManagerSo hunksManagerSo = CreateInstance<HunksManagerSo>();
+
+        for (int i = 0; i < hunksToGenerateCount.x; i++)
+        {
+            for (int j = 0; j < hunksToGenerateCount.y; j++)
+            {
+                HunkSO hunkSo = GenerateHunk(i, j);
+                Debug.Log(
+                    $"Added hunk {hunkSo.MinCoords.x};{hunkSo.MinCoords.y};{hunkSo.MaxCoords.x};{hunkSo.MaxCoords.y}");
+                string addresablePath = AssetDatabase.GetAssetPath(hunkSo);
+                hunksManagerSo.AddHunk(
+                    new MinMaxRange(
+                        hunkSo.MinCoords.x,
+                        hunkSo.MinCoords.y,
+                        hunkSo.MaxCoords.x,
+                        hunkSo.MaxCoords.y),
+                    addresablePath);
+
+                EditorUtility.DisplayProgressBar(
+                    title: "Generating hunks",
+                    info: $"Generating hunks {j},{i}",
+                    progress: (float)((i + startXIndex) * (j + startYIndex)) / hunksCount);
+
+                yield return null;
+            }
+        }
+
+        AssetDatabase.CreateAsset(hunksManagerSo,
+            HUNKS_SO_PATH + "HunksManager.asset");
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+        EditorUtility.ClearProgressBar();
     }
 
     [Button("Clear hunks")]
@@ -154,8 +157,41 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
     {
         EditorCoroutineUtility.StartCoroutine(ClearHunks(), this);
     }
+
+    [Button("Set Data As Addresable")]
+    private void SetDataAsAddresable_Btn(string label = "TilesData")
+    {
+        EditorCoroutineUtility.StartCoroutine(SetDataAsAddresable(label), this);
+    }
     
+    private IEnumerator SetDataAsAddresable(string label)
+    {
+        string[] files = Directory.GetFiles(HUNKS_SO_PATH);
+        int filesCount = files.Length;
+        EditorUtility.DisplayProgressBar(
+            title: "Deleting hunks",
+            info: "Deleting hunks",
+            progress: 0f / filesCount);
+        for (int i = 0; i < filesCount; i++)
+        {
+            AddressableHelper.CreateAssetEntry( 
+                label: label,
+                source: AssetDatabase.LoadAssetAtPath<SerializedScriptableObject>(files[i]));
+            EditorUtility.DisplayProgressBar(
+                title: "Setting data as addressable",
+                info: $"File: {i + 1}",
+                progress: i / filesCount);
+            Debug.Log($"Setting data as addressable: {i+1}/{filesCount}");
+            yield return null;
+        }
+
+        _isDeletingHunks = false;
+        AssetDatabase.Refresh();
+        EditorUtility.ClearProgressBar();
+    }
+
     private bool _isDeletingHunks = false;
+
     private IEnumerator ClearHunks()
     {
         _isDeletingHunks = true;

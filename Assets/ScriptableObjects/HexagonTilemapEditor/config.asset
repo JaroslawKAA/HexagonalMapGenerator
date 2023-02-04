@@ -21,8 +21,9 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  tilemapSize: {x: 50, y: 25}
-  _hunkSize: {x: 10, y: 10}
+  tilemapSize: {x: 1000, y: 1000}
+  _hunkSize: {x: 40, y: 20}
+  hunkPopulatingSpeed: 25
   startXIndex: 1
   startYIndex: 1
   tilesConfiguration:
@@ -42,7 +43,3 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: f38028546ed28b247b288dbfbbdfbcd5, type: 3}
     frequency: 25
     interactable: 0
-  hexTilePrefab: {fileID: -7939992136221145794, guid: 09a1caf6dde70fe47a134951665b7ff1,
-    type: 3}
-  tilemap: {fileID: 0}
-  grid: {fileID: 0}

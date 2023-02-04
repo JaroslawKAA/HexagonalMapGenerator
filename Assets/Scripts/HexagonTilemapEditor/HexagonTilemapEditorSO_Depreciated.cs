@@ -8,7 +8,7 @@ using UnityEngine;
 
 public partial class HexagonTilemapEditorSO
 {
-    [Title("As prefabs (depreciated)")]
+    /*[Title("As prefabs (depreciated)")]
     [Button("Generate Tiles (Depreciated)")]
     [DisableIf("@tilemap == null || grid == null")]
     private void GenerateTilesButton_Depreciated()
@@ -152,5 +152,5 @@ public partial class HexagonTilemapEditorSO
         isDeletingHunks_depreciated = false;
         EditorUtility.ClearProgressBar();
         EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-    }
+    }*/
 }

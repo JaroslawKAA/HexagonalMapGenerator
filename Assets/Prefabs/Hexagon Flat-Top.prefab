@@ -100,9 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coordinates: {x: 0, y: 0}
-  color: 0
   interactable: 0
+  id: 0
   spriteRenderer: {fileID: 5791704971374292634}
+  _collider2D: {fileID: -7798769356718221961}
 --- !u!60 &-7798769356718221961
 PolygonCollider2D:
   m_ObjectHideFlags: 0

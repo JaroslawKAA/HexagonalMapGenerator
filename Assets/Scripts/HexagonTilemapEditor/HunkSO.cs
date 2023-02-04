@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using System;
+using System.Linq;
 using UnityEditor;
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Level/Hunk", fileName = "HunkSO", order = 0)]
@@ -20,8 +21,19 @@ public class HunkSO : SerializedScriptableObject
     [SerializeField] [ReadOnly] 
     private bool inited = false;
 
-    public Vector2Int MinCoords => minCoords;
-    public Vector2Int MaxCoords => maxCoords;
+    public Vector2Int MinCoords
+    {
+        get => minCoords;
+        set => minCoords = value;
+    }
+
+    public Vector2Int MaxCoords
+    {
+        get => maxCoords;
+        set => maxCoords = value;
+    }
+
+    public Dictionary<Vector2Int, HexData> Hexes => _hexes;
 
     public void AddHex(HexData hex)
     {
