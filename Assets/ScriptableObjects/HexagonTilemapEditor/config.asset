@@ -21,9 +21,9 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  tilemapSize: {x: 1000, y: 1000}
+  tilemapSize: {x: 200, y: 200}
   _hunkSize: {x: 40, y: 20}
-  hunkPopulatingSpeed: 25
+  hunkPopulatingSpeed: 15
   startXIndex: 1
   startYIndex: 1
   tilesConfiguration:

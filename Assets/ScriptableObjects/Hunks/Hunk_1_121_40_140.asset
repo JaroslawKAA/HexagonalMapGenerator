@@ -172,7 +172,7 @@ MonoBehaviour:
       Data: 5|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -211,7 +211,7 @@ MonoBehaviour:
       Data: 6|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -250,7 +250,7 @@ MonoBehaviour:
       Data: 7|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -328,7 +328,7 @@ MonoBehaviour:
       Data: 9|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -445,7 +445,7 @@ MonoBehaviour:
       Data: 12|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -523,7 +523,7 @@ MonoBehaviour:
       Data: 14|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -601,7 +601,7 @@ MonoBehaviour:
       Data: 16|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -679,7 +679,7 @@ MonoBehaviour:
       Data: 18|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -718,7 +718,7 @@ MonoBehaviour:
       Data: 19|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -796,7 +796,7 @@ MonoBehaviour:
       Data: 21|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -835,7 +835,7 @@ MonoBehaviour:
       Data: 22|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -874,7 +874,7 @@ MonoBehaviour:
       Data: 23|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -913,7 +913,7 @@ MonoBehaviour:
       Data: 24|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1069,7 +1069,7 @@ MonoBehaviour:
       Data: 28|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1303,7 +1303,7 @@ MonoBehaviour:
       Data: 34|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1537,7 +1537,7 @@ MonoBehaviour:
       Data: 40|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1654,7 +1654,7 @@ MonoBehaviour:
       Data: 43|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1693,7 +1693,7 @@ MonoBehaviour:
       Data: 44|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1732,7 +1732,7 @@ MonoBehaviour:
       Data: 45|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1810,7 +1810,7 @@ MonoBehaviour:
       Data: 47|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1849,7 +1849,7 @@ MonoBehaviour:
       Data: 48|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1927,7 +1927,7 @@ MonoBehaviour:
       Data: 50|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -1966,7 +1966,7 @@ MonoBehaviour:
       Data: 51|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2044,7 +2044,7 @@ MonoBehaviour:
       Data: 53|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2161,7 +2161,7 @@ MonoBehaviour:
       Data: 56|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2200,7 +2200,7 @@ MonoBehaviour:
       Data: 57|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2317,7 +2317,7 @@ MonoBehaviour:
       Data: 60|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2473,7 +2473,7 @@ MonoBehaviour:
       Data: 64|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2551,7 +2551,7 @@ MonoBehaviour:
       Data: 66|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2785,7 +2785,7 @@ MonoBehaviour:
       Data: 72|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2941,7 +2941,7 @@ MonoBehaviour:
       Data: 76|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -2980,7 +2980,7 @@ MonoBehaviour:
       Data: 77|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3058,7 +3058,7 @@ MonoBehaviour:
       Data: 79|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3136,7 +3136,7 @@ MonoBehaviour:
       Data: 81|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3175,7 +3175,7 @@ MonoBehaviour:
       Data: 82|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3214,7 +3214,7 @@ MonoBehaviour:
       Data: 83|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3253,7 +3253,7 @@ MonoBehaviour:
       Data: 84|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3331,7 +3331,7 @@ MonoBehaviour:
       Data: 86|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3409,7 +3409,7 @@ MonoBehaviour:
       Data: 88|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3487,7 +3487,7 @@ MonoBehaviour:
       Data: 90|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3526,7 +3526,7 @@ MonoBehaviour:
       Data: 91|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3565,7 +3565,7 @@ MonoBehaviour:
       Data: 92|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3604,7 +3604,7 @@ MonoBehaviour:
       Data: 93|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3643,7 +3643,7 @@ MonoBehaviour:
       Data: 94|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3682,7 +3682,7 @@ MonoBehaviour:
       Data: 95|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3721,7 +3721,7 @@ MonoBehaviour:
       Data: 96|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3799,7 +3799,7 @@ MonoBehaviour:
       Data: 98|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3877,7 +3877,7 @@ MonoBehaviour:
       Data: 100|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3916,7 +3916,7 @@ MonoBehaviour:
       Data: 101|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -3994,7 +3994,7 @@ MonoBehaviour:
       Data: 103|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4150,7 +4150,7 @@ MonoBehaviour:
       Data: 107|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4189,7 +4189,7 @@ MonoBehaviour:
       Data: 108|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4228,7 +4228,7 @@ MonoBehaviour:
       Data: 109|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4345,7 +4345,7 @@ MonoBehaviour:
       Data: 112|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4384,7 +4384,7 @@ MonoBehaviour:
       Data: 113|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4423,7 +4423,7 @@ MonoBehaviour:
       Data: 114|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4462,7 +4462,7 @@ MonoBehaviour:
       Data: 115|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4540,7 +4540,7 @@ MonoBehaviour:
       Data: 117|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4579,7 +4579,7 @@ MonoBehaviour:
       Data: 118|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4618,7 +4618,7 @@ MonoBehaviour:
       Data: 119|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4696,7 +4696,7 @@ MonoBehaviour:
       Data: 121|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4735,7 +4735,7 @@ MonoBehaviour:
       Data: 122|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4774,7 +4774,7 @@ MonoBehaviour:
       Data: 123|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4852,7 +4852,7 @@ MonoBehaviour:
       Data: 125|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -4891,7 +4891,7 @@ MonoBehaviour:
       Data: 126|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5008,7 +5008,7 @@ MonoBehaviour:
       Data: 129|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5047,7 +5047,7 @@ MonoBehaviour:
       Data: 130|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5086,7 +5086,7 @@ MonoBehaviour:
       Data: 131|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5281,7 +5281,7 @@ MonoBehaviour:
       Data: 136|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5320,7 +5320,7 @@ MonoBehaviour:
       Data: 137|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5476,7 +5476,7 @@ MonoBehaviour:
       Data: 141|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5593,7 +5593,7 @@ MonoBehaviour:
       Data: 144|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5905,7 +5905,7 @@ MonoBehaviour:
       Data: 152|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -5944,7 +5944,7 @@ MonoBehaviour:
       Data: 153|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6100,7 +6100,7 @@ MonoBehaviour:
       Data: 157|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6178,7 +6178,7 @@ MonoBehaviour:
       Data: 159|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6256,7 +6256,7 @@ MonoBehaviour:
       Data: 161|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6295,7 +6295,7 @@ MonoBehaviour:
       Data: 162|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6373,7 +6373,7 @@ MonoBehaviour:
       Data: 164|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6412,7 +6412,7 @@ MonoBehaviour:
       Data: 165|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6490,7 +6490,7 @@ MonoBehaviour:
       Data: 167|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6607,7 +6607,7 @@ MonoBehaviour:
       Data: 170|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6646,7 +6646,7 @@ MonoBehaviour:
       Data: 171|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6802,7 +6802,7 @@ MonoBehaviour:
       Data: 175|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6880,7 +6880,7 @@ MonoBehaviour:
       Data: 177|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6919,7 +6919,7 @@ MonoBehaviour:
       Data: 178|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6958,7 +6958,7 @@ MonoBehaviour:
       Data: 179|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -6997,7 +6997,7 @@ MonoBehaviour:
       Data: 180|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7036,7 +7036,7 @@ MonoBehaviour:
       Data: 181|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7075,7 +7075,7 @@ MonoBehaviour:
       Data: 182|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7153,7 +7153,7 @@ MonoBehaviour:
       Data: 184|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7192,7 +7192,7 @@ MonoBehaviour:
       Data: 185|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7270,7 +7270,7 @@ MonoBehaviour:
       Data: 187|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7309,7 +7309,7 @@ MonoBehaviour:
       Data: 188|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7426,7 +7426,7 @@ MonoBehaviour:
       Data: 191|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7699,7 +7699,7 @@ MonoBehaviour:
       Data: 198|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7738,7 +7738,7 @@ MonoBehaviour:
       Data: 199|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7855,7 +7855,7 @@ MonoBehaviour:
       Data: 202|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -7972,7 +7972,7 @@ MonoBehaviour:
       Data: 205|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8050,7 +8050,7 @@ MonoBehaviour:
       Data: 207|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8089,7 +8089,7 @@ MonoBehaviour:
       Data: 208|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8167,7 +8167,7 @@ MonoBehaviour:
       Data: 210|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8206,7 +8206,7 @@ MonoBehaviour:
       Data: 211|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8245,7 +8245,7 @@ MonoBehaviour:
       Data: 212|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8284,7 +8284,7 @@ MonoBehaviour:
       Data: 213|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8401,7 +8401,7 @@ MonoBehaviour:
       Data: 216|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8479,7 +8479,7 @@ MonoBehaviour:
       Data: 218|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8518,7 +8518,7 @@ MonoBehaviour:
       Data: 219|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8557,7 +8557,7 @@ MonoBehaviour:
       Data: 220|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8596,7 +8596,7 @@ MonoBehaviour:
       Data: 221|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8635,7 +8635,7 @@ MonoBehaviour:
       Data: 222|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8674,7 +8674,7 @@ MonoBehaviour:
       Data: 223|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8713,7 +8713,7 @@ MonoBehaviour:
       Data: 224|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8791,7 +8791,7 @@ MonoBehaviour:
       Data: 226|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8830,7 +8830,7 @@ MonoBehaviour:
       Data: 227|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -8908,7 +8908,7 @@ MonoBehaviour:
       Data: 229|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9025,7 +9025,7 @@ MonoBehaviour:
       Data: 232|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9064,7 +9064,7 @@ MonoBehaviour:
       Data: 233|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9181,7 +9181,7 @@ MonoBehaviour:
       Data: 236|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9220,7 +9220,7 @@ MonoBehaviour:
       Data: 237|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9259,7 +9259,7 @@ MonoBehaviour:
       Data: 238|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9298,7 +9298,7 @@ MonoBehaviour:
       Data: 239|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9376,7 +9376,7 @@ MonoBehaviour:
       Data: 241|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9571,7 +9571,7 @@ MonoBehaviour:
       Data: 246|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9610,7 +9610,7 @@ MonoBehaviour:
       Data: 247|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9649,7 +9649,7 @@ MonoBehaviour:
       Data: 248|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9688,7 +9688,7 @@ MonoBehaviour:
       Data: 249|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9766,7 +9766,7 @@ MonoBehaviour:
       Data: 251|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9805,7 +9805,7 @@ MonoBehaviour:
       Data: 252|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9844,7 +9844,7 @@ MonoBehaviour:
       Data: 253|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -9922,7 +9922,7 @@ MonoBehaviour:
       Data: 255|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10000,7 +10000,7 @@ MonoBehaviour:
       Data: 257|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10039,7 +10039,7 @@ MonoBehaviour:
       Data: 258|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10078,7 +10078,7 @@ MonoBehaviour:
       Data: 259|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10117,7 +10117,7 @@ MonoBehaviour:
       Data: 260|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10234,7 +10234,7 @@ MonoBehaviour:
       Data: 263|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10273,7 +10273,7 @@ MonoBehaviour:
       Data: 264|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10351,7 +10351,7 @@ MonoBehaviour:
       Data: 266|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10390,7 +10390,7 @@ MonoBehaviour:
       Data: 267|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10546,7 +10546,7 @@ MonoBehaviour:
       Data: 271|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10624,7 +10624,7 @@ MonoBehaviour:
       Data: 273|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10702,7 +10702,7 @@ MonoBehaviour:
       Data: 275|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10819,7 +10819,7 @@ MonoBehaviour:
       Data: 278|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -10897,7 +10897,7 @@ MonoBehaviour:
       Data: 280|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11014,7 +11014,7 @@ MonoBehaviour:
       Data: 283|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11053,7 +11053,7 @@ MonoBehaviour:
       Data: 284|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11170,7 +11170,7 @@ MonoBehaviour:
       Data: 287|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11209,7 +11209,7 @@ MonoBehaviour:
       Data: 288|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11287,7 +11287,7 @@ MonoBehaviour:
       Data: 290|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11365,7 +11365,7 @@ MonoBehaviour:
       Data: 292|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11443,7 +11443,7 @@ MonoBehaviour:
       Data: 294|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11677,7 +11677,7 @@ MonoBehaviour:
       Data: 300|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11794,7 +11794,7 @@ MonoBehaviour:
       Data: 303|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -11950,7 +11950,7 @@ MonoBehaviour:
       Data: 307|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12028,7 +12028,7 @@ MonoBehaviour:
       Data: 309|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12067,7 +12067,7 @@ MonoBehaviour:
       Data: 310|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12106,7 +12106,7 @@ MonoBehaviour:
       Data: 311|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12145,7 +12145,7 @@ MonoBehaviour:
       Data: 312|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12184,7 +12184,7 @@ MonoBehaviour:
       Data: 313|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12223,7 +12223,7 @@ MonoBehaviour:
       Data: 314|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12262,7 +12262,7 @@ MonoBehaviour:
       Data: 315|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12535,7 +12535,7 @@ MonoBehaviour:
       Data: 322|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12613,7 +12613,7 @@ MonoBehaviour:
       Data: 324|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12652,7 +12652,7 @@ MonoBehaviour:
       Data: 325|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12730,7 +12730,7 @@ MonoBehaviour:
       Data: 327|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12769,7 +12769,7 @@ MonoBehaviour:
       Data: 328|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12808,7 +12808,7 @@ MonoBehaviour:
       Data: 329|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12847,7 +12847,7 @@ MonoBehaviour:
       Data: 330|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -12964,7 +12964,7 @@ MonoBehaviour:
       Data: 333|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13003,7 +13003,7 @@ MonoBehaviour:
       Data: 334|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13120,7 +13120,7 @@ MonoBehaviour:
       Data: 337|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13159,7 +13159,7 @@ MonoBehaviour:
       Data: 338|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13198,7 +13198,7 @@ MonoBehaviour:
       Data: 339|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13237,7 +13237,7 @@ MonoBehaviour:
       Data: 340|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13276,7 +13276,7 @@ MonoBehaviour:
       Data: 341|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13315,7 +13315,7 @@ MonoBehaviour:
       Data: 342|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13588,7 +13588,7 @@ MonoBehaviour:
       Data: 349|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13627,7 +13627,7 @@ MonoBehaviour:
       Data: 350|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13744,7 +13744,7 @@ MonoBehaviour:
       Data: 353|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13783,7 +13783,7 @@ MonoBehaviour:
       Data: 354|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13822,7 +13822,7 @@ MonoBehaviour:
       Data: 355|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13861,7 +13861,7 @@ MonoBehaviour:
       Data: 356|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13900,7 +13900,7 @@ MonoBehaviour:
       Data: 357|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13939,7 +13939,7 @@ MonoBehaviour:
       Data: 358|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -13978,7 +13978,7 @@ MonoBehaviour:
       Data: 359|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14017,7 +14017,7 @@ MonoBehaviour:
       Data: 360|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14056,7 +14056,7 @@ MonoBehaviour:
       Data: 361|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14095,7 +14095,7 @@ MonoBehaviour:
       Data: 362|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14134,7 +14134,7 @@ MonoBehaviour:
       Data: 363|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14329,7 +14329,7 @@ MonoBehaviour:
       Data: 368|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14446,7 +14446,7 @@ MonoBehaviour:
       Data: 371|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14563,7 +14563,7 @@ MonoBehaviour:
       Data: 374|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14680,7 +14680,7 @@ MonoBehaviour:
       Data: 377|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14758,7 +14758,7 @@ MonoBehaviour:
       Data: 379|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14953,7 +14953,7 @@ MonoBehaviour:
       Data: 384|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -14992,7 +14992,7 @@ MonoBehaviour:
       Data: 385|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15031,7 +15031,7 @@ MonoBehaviour:
       Data: 386|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15070,7 +15070,7 @@ MonoBehaviour:
       Data: 387|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15109,7 +15109,7 @@ MonoBehaviour:
       Data: 388|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15187,7 +15187,7 @@ MonoBehaviour:
       Data: 390|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15226,7 +15226,7 @@ MonoBehaviour:
       Data: 391|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15265,7 +15265,7 @@ MonoBehaviour:
       Data: 392|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15343,7 +15343,7 @@ MonoBehaviour:
       Data: 394|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15382,7 +15382,7 @@ MonoBehaviour:
       Data: 395|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15538,7 +15538,7 @@ MonoBehaviour:
       Data: 399|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15577,7 +15577,7 @@ MonoBehaviour:
       Data: 400|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15616,7 +15616,7 @@ MonoBehaviour:
       Data: 401|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15694,7 +15694,7 @@ MonoBehaviour:
       Data: 403|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15811,7 +15811,7 @@ MonoBehaviour:
       Data: 406|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15850,7 +15850,7 @@ MonoBehaviour:
       Data: 407|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -15928,7 +15928,7 @@ MonoBehaviour:
       Data: 409|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16045,7 +16045,7 @@ MonoBehaviour:
       Data: 412|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16123,7 +16123,7 @@ MonoBehaviour:
       Data: 414|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16201,7 +16201,7 @@ MonoBehaviour:
       Data: 416|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16240,7 +16240,7 @@ MonoBehaviour:
       Data: 417|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16318,7 +16318,7 @@ MonoBehaviour:
       Data: 419|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16396,7 +16396,7 @@ MonoBehaviour:
       Data: 421|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16591,7 +16591,7 @@ MonoBehaviour:
       Data: 426|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16669,7 +16669,7 @@ MonoBehaviour:
       Data: 428|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16747,7 +16747,7 @@ MonoBehaviour:
       Data: 430|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16786,7 +16786,7 @@ MonoBehaviour:
       Data: 431|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16864,7 +16864,7 @@ MonoBehaviour:
       Data: 433|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16942,7 +16942,7 @@ MonoBehaviour:
       Data: 435|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -16981,7 +16981,7 @@ MonoBehaviour:
       Data: 436|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17020,7 +17020,7 @@ MonoBehaviour:
       Data: 437|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17059,7 +17059,7 @@ MonoBehaviour:
       Data: 438|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17137,7 +17137,7 @@ MonoBehaviour:
       Data: 440|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17176,7 +17176,7 @@ MonoBehaviour:
       Data: 441|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17215,7 +17215,7 @@ MonoBehaviour:
       Data: 442|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17371,7 +17371,7 @@ MonoBehaviour:
       Data: 446|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17410,7 +17410,7 @@ MonoBehaviour:
       Data: 447|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17449,7 +17449,7 @@ MonoBehaviour:
       Data: 448|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17527,7 +17527,7 @@ MonoBehaviour:
       Data: 450|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17566,7 +17566,7 @@ MonoBehaviour:
       Data: 451|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17605,7 +17605,7 @@ MonoBehaviour:
       Data: 452|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17644,7 +17644,7 @@ MonoBehaviour:
       Data: 453|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17761,7 +17761,7 @@ MonoBehaviour:
       Data: 456|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17917,7 +17917,7 @@ MonoBehaviour:
       Data: 460|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -17995,7 +17995,7 @@ MonoBehaviour:
       Data: 462|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18112,7 +18112,7 @@ MonoBehaviour:
       Data: 465|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18229,7 +18229,7 @@ MonoBehaviour:
       Data: 468|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18268,7 +18268,7 @@ MonoBehaviour:
       Data: 469|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18307,7 +18307,7 @@ MonoBehaviour:
       Data: 470|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18346,7 +18346,7 @@ MonoBehaviour:
       Data: 471|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18385,7 +18385,7 @@ MonoBehaviour:
       Data: 472|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18463,7 +18463,7 @@ MonoBehaviour:
       Data: 474|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18502,7 +18502,7 @@ MonoBehaviour:
       Data: 475|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18541,7 +18541,7 @@ MonoBehaviour:
       Data: 476|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18580,7 +18580,7 @@ MonoBehaviour:
       Data: 477|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18658,7 +18658,7 @@ MonoBehaviour:
       Data: 479|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18697,7 +18697,7 @@ MonoBehaviour:
       Data: 480|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18736,7 +18736,7 @@ MonoBehaviour:
       Data: 481|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18775,7 +18775,7 @@ MonoBehaviour:
       Data: 482|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18814,7 +18814,7 @@ MonoBehaviour:
       Data: 483|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -18853,7 +18853,7 @@ MonoBehaviour:
       Data: 484|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19009,7 +19009,7 @@ MonoBehaviour:
       Data: 488|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19087,7 +19087,7 @@ MonoBehaviour:
       Data: 490|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19165,7 +19165,7 @@ MonoBehaviour:
       Data: 492|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19204,7 +19204,7 @@ MonoBehaviour:
       Data: 493|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19243,7 +19243,7 @@ MonoBehaviour:
       Data: 494|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19360,7 +19360,7 @@ MonoBehaviour:
       Data: 497|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19555,7 +19555,7 @@ MonoBehaviour:
       Data: 502|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19594,7 +19594,7 @@ MonoBehaviour:
       Data: 503|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19789,7 +19789,7 @@ MonoBehaviour:
       Data: 508|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19828,7 +19828,7 @@ MonoBehaviour:
       Data: 509|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19867,7 +19867,7 @@ MonoBehaviour:
       Data: 510|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19945,7 +19945,7 @@ MonoBehaviour:
       Data: 512|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -19984,7 +19984,7 @@ MonoBehaviour:
       Data: 513|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20023,7 +20023,7 @@ MonoBehaviour:
       Data: 514|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20140,7 +20140,7 @@ MonoBehaviour:
       Data: 517|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20218,7 +20218,7 @@ MonoBehaviour:
       Data: 519|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20257,7 +20257,7 @@ MonoBehaviour:
       Data: 520|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20374,7 +20374,7 @@ MonoBehaviour:
       Data: 523|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20413,7 +20413,7 @@ MonoBehaviour:
       Data: 524|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20452,7 +20452,7 @@ MonoBehaviour:
       Data: 525|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20491,7 +20491,7 @@ MonoBehaviour:
       Data: 526|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20569,7 +20569,7 @@ MonoBehaviour:
       Data: 528|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20647,7 +20647,7 @@ MonoBehaviour:
       Data: 530|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20686,7 +20686,7 @@ MonoBehaviour:
       Data: 531|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20764,7 +20764,7 @@ MonoBehaviour:
       Data: 533|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20803,7 +20803,7 @@ MonoBehaviour:
       Data: 534|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20881,7 +20881,7 @@ MonoBehaviour:
       Data: 536|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20959,7 +20959,7 @@ MonoBehaviour:
       Data: 538|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -20998,7 +20998,7 @@ MonoBehaviour:
       Data: 539|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21037,7 +21037,7 @@ MonoBehaviour:
       Data: 540|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21115,7 +21115,7 @@ MonoBehaviour:
       Data: 542|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21154,7 +21154,7 @@ MonoBehaviour:
       Data: 543|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21193,7 +21193,7 @@ MonoBehaviour:
       Data: 544|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21232,7 +21232,7 @@ MonoBehaviour:
       Data: 545|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21271,7 +21271,7 @@ MonoBehaviour:
       Data: 546|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21349,7 +21349,7 @@ MonoBehaviour:
       Data: 548|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21388,7 +21388,7 @@ MonoBehaviour:
       Data: 549|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21427,7 +21427,7 @@ MonoBehaviour:
       Data: 550|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21544,7 +21544,7 @@ MonoBehaviour:
       Data: 553|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21583,7 +21583,7 @@ MonoBehaviour:
       Data: 554|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21661,7 +21661,7 @@ MonoBehaviour:
       Data: 556|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21700,7 +21700,7 @@ MonoBehaviour:
       Data: 557|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21778,7 +21778,7 @@ MonoBehaviour:
       Data: 559|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21817,7 +21817,7 @@ MonoBehaviour:
       Data: 560|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -21934,7 +21934,7 @@ MonoBehaviour:
       Data: 563|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22012,7 +22012,7 @@ MonoBehaviour:
       Data: 565|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22090,7 +22090,7 @@ MonoBehaviour:
       Data: 567|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22129,7 +22129,7 @@ MonoBehaviour:
       Data: 568|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22168,7 +22168,7 @@ MonoBehaviour:
       Data: 569|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22207,7 +22207,7 @@ MonoBehaviour:
       Data: 570|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22285,7 +22285,7 @@ MonoBehaviour:
       Data: 572|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22324,7 +22324,7 @@ MonoBehaviour:
       Data: 573|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22519,7 +22519,7 @@ MonoBehaviour:
       Data: 578|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22558,7 +22558,7 @@ MonoBehaviour:
       Data: 579|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22597,7 +22597,7 @@ MonoBehaviour:
       Data: 580|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22636,7 +22636,7 @@ MonoBehaviour:
       Data: 581|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22675,7 +22675,7 @@ MonoBehaviour:
       Data: 582|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22714,7 +22714,7 @@ MonoBehaviour:
       Data: 583|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22753,7 +22753,7 @@ MonoBehaviour:
       Data: 584|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22792,7 +22792,7 @@ MonoBehaviour:
       Data: 585|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22831,7 +22831,7 @@ MonoBehaviour:
       Data: 586|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22909,7 +22909,7 @@ MonoBehaviour:
       Data: 588|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -22948,7 +22948,7 @@ MonoBehaviour:
       Data: 589|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23026,7 +23026,7 @@ MonoBehaviour:
       Data: 591|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23065,7 +23065,7 @@ MonoBehaviour:
       Data: 592|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23104,7 +23104,7 @@ MonoBehaviour:
       Data: 593|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23182,7 +23182,7 @@ MonoBehaviour:
       Data: 595|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23260,7 +23260,7 @@ MonoBehaviour:
       Data: 597|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23377,7 +23377,7 @@ MonoBehaviour:
       Data: 600|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23416,7 +23416,7 @@ MonoBehaviour:
       Data: 601|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23455,7 +23455,7 @@ MonoBehaviour:
       Data: 602|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23494,7 +23494,7 @@ MonoBehaviour:
       Data: 603|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23533,7 +23533,7 @@ MonoBehaviour:
       Data: 604|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23650,7 +23650,7 @@ MonoBehaviour:
       Data: 607|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23689,7 +23689,7 @@ MonoBehaviour:
       Data: 608|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23767,7 +23767,7 @@ MonoBehaviour:
       Data: 610|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23806,7 +23806,7 @@ MonoBehaviour:
       Data: 611|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -23884,7 +23884,7 @@ MonoBehaviour:
       Data: 613|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24001,7 +24001,7 @@ MonoBehaviour:
       Data: 616|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24040,7 +24040,7 @@ MonoBehaviour:
       Data: 617|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24079,7 +24079,7 @@ MonoBehaviour:
       Data: 618|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24196,7 +24196,7 @@ MonoBehaviour:
       Data: 621|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24235,7 +24235,7 @@ MonoBehaviour:
       Data: 622|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24313,7 +24313,7 @@ MonoBehaviour:
       Data: 624|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24352,7 +24352,7 @@ MonoBehaviour:
       Data: 625|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24430,7 +24430,7 @@ MonoBehaviour:
       Data: 627|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24469,7 +24469,7 @@ MonoBehaviour:
       Data: 628|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24508,7 +24508,7 @@ MonoBehaviour:
       Data: 629|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24547,7 +24547,7 @@ MonoBehaviour:
       Data: 630|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24625,7 +24625,7 @@ MonoBehaviour:
       Data: 632|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24703,7 +24703,7 @@ MonoBehaviour:
       Data: 634|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24781,7 +24781,7 @@ MonoBehaviour:
       Data: 636|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24898,7 +24898,7 @@ MonoBehaviour:
       Data: 639|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -24937,7 +24937,7 @@ MonoBehaviour:
       Data: 640|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25015,7 +25015,7 @@ MonoBehaviour:
       Data: 642|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25054,7 +25054,7 @@ MonoBehaviour:
       Data: 643|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25132,7 +25132,7 @@ MonoBehaviour:
       Data: 645|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25171,7 +25171,7 @@ MonoBehaviour:
       Data: 646|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25288,7 +25288,7 @@ MonoBehaviour:
       Data: 649|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25327,7 +25327,7 @@ MonoBehaviour:
       Data: 650|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25366,7 +25366,7 @@ MonoBehaviour:
       Data: 651|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25444,7 +25444,7 @@ MonoBehaviour:
       Data: 653|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25522,7 +25522,7 @@ MonoBehaviour:
       Data: 655|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25639,7 +25639,7 @@ MonoBehaviour:
       Data: 658|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25678,7 +25678,7 @@ MonoBehaviour:
       Data: 659|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25717,7 +25717,7 @@ MonoBehaviour:
       Data: 660|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25834,7 +25834,7 @@ MonoBehaviour:
       Data: 663|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25873,7 +25873,7 @@ MonoBehaviour:
       Data: 664|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -25990,7 +25990,7 @@ MonoBehaviour:
       Data: 667|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26029,7 +26029,7 @@ MonoBehaviour:
       Data: 668|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26107,7 +26107,7 @@ MonoBehaviour:
       Data: 670|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26224,7 +26224,7 @@ MonoBehaviour:
       Data: 673|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26263,7 +26263,7 @@ MonoBehaviour:
       Data: 674|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26341,7 +26341,7 @@ MonoBehaviour:
       Data: 676|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26419,7 +26419,7 @@ MonoBehaviour:
       Data: 678|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26497,7 +26497,7 @@ MonoBehaviour:
       Data: 680|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26536,7 +26536,7 @@ MonoBehaviour:
       Data: 681|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26653,7 +26653,7 @@ MonoBehaviour:
       Data: 684|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26692,7 +26692,7 @@ MonoBehaviour:
       Data: 685|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26731,7 +26731,7 @@ MonoBehaviour:
       Data: 686|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26770,7 +26770,7 @@ MonoBehaviour:
       Data: 687|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26887,7 +26887,7 @@ MonoBehaviour:
       Data: 690|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -26926,7 +26926,7 @@ MonoBehaviour:
       Data: 691|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27043,7 +27043,7 @@ MonoBehaviour:
       Data: 694|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27121,7 +27121,7 @@ MonoBehaviour:
       Data: 696|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27199,7 +27199,7 @@ MonoBehaviour:
       Data: 698|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27316,7 +27316,7 @@ MonoBehaviour:
       Data: 701|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27355,7 +27355,7 @@ MonoBehaviour:
       Data: 702|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27394,7 +27394,7 @@ MonoBehaviour:
       Data: 703|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27433,7 +27433,7 @@ MonoBehaviour:
       Data: 704|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27472,7 +27472,7 @@ MonoBehaviour:
       Data: 705|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27550,7 +27550,7 @@ MonoBehaviour:
       Data: 707|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27628,7 +27628,7 @@ MonoBehaviour:
       Data: 709|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27745,7 +27745,7 @@ MonoBehaviour:
       Data: 712|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27784,7 +27784,7 @@ MonoBehaviour:
       Data: 713|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27862,7 +27862,7 @@ MonoBehaviour:
       Data: 715|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27901,7 +27901,7 @@ MonoBehaviour:
       Data: 716|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27940,7 +27940,7 @@ MonoBehaviour:
       Data: 717|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -27979,7 +27979,7 @@ MonoBehaviour:
       Data: 718|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28018,7 +28018,7 @@ MonoBehaviour:
       Data: 719|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28057,7 +28057,7 @@ MonoBehaviour:
       Data: 720|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28135,7 +28135,7 @@ MonoBehaviour:
       Data: 722|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28174,7 +28174,7 @@ MonoBehaviour:
       Data: 723|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28252,7 +28252,7 @@ MonoBehaviour:
       Data: 725|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28291,7 +28291,7 @@ MonoBehaviour:
       Data: 726|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28330,7 +28330,7 @@ MonoBehaviour:
       Data: 727|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28369,7 +28369,7 @@ MonoBehaviour:
       Data: 728|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28408,7 +28408,7 @@ MonoBehaviour:
       Data: 729|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28447,7 +28447,7 @@ MonoBehaviour:
       Data: 730|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28681,7 +28681,7 @@ MonoBehaviour:
       Data: 736|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28759,7 +28759,7 @@ MonoBehaviour:
       Data: 738|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28837,7 +28837,7 @@ MonoBehaviour:
       Data: 740|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28915,7 +28915,7 @@ MonoBehaviour:
       Data: 742|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -28993,7 +28993,7 @@ MonoBehaviour:
       Data: 744|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29032,7 +29032,7 @@ MonoBehaviour:
       Data: 745|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29110,7 +29110,7 @@ MonoBehaviour:
       Data: 747|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29227,7 +29227,7 @@ MonoBehaviour:
       Data: 750|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29266,7 +29266,7 @@ MonoBehaviour:
       Data: 751|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29344,7 +29344,7 @@ MonoBehaviour:
       Data: 753|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29383,7 +29383,7 @@ MonoBehaviour:
       Data: 754|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29461,7 +29461,7 @@ MonoBehaviour:
       Data: 756|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29578,7 +29578,7 @@ MonoBehaviour:
       Data: 759|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29695,7 +29695,7 @@ MonoBehaviour:
       Data: 762|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29734,7 +29734,7 @@ MonoBehaviour:
       Data: 763|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29773,7 +29773,7 @@ MonoBehaviour:
       Data: 764|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29812,7 +29812,7 @@ MonoBehaviour:
       Data: 765|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29851,7 +29851,7 @@ MonoBehaviour:
       Data: 766|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29890,7 +29890,7 @@ MonoBehaviour:
       Data: 767|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -29929,7 +29929,7 @@ MonoBehaviour:
       Data: 768|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30007,7 +30007,7 @@ MonoBehaviour:
       Data: 770|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30046,7 +30046,7 @@ MonoBehaviour:
       Data: 771|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30202,7 +30202,7 @@ MonoBehaviour:
       Data: 775|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30319,7 +30319,7 @@ MonoBehaviour:
       Data: 778|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30397,7 +30397,7 @@ MonoBehaviour:
       Data: 780|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30514,7 +30514,7 @@ MonoBehaviour:
       Data: 783|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30553,7 +30553,7 @@ MonoBehaviour:
       Data: 784|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30592,7 +30592,7 @@ MonoBehaviour:
       Data: 785|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30670,7 +30670,7 @@ MonoBehaviour:
       Data: 787|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30709,7 +30709,7 @@ MonoBehaviour:
       Data: 788|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30748,7 +30748,7 @@ MonoBehaviour:
       Data: 789|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30787,7 +30787,7 @@ MonoBehaviour:
       Data: 790|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30865,7 +30865,7 @@ MonoBehaviour:
       Data: 792|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -30904,7 +30904,7 @@ MonoBehaviour:
       Data: 793|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 1
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -31021,7 +31021,7 @@ MonoBehaviour:
       Data: 796|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -31060,7 +31060,7 @@ MonoBehaviour:
       Data: 797|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -31138,7 +31138,7 @@ MonoBehaviour:
       Data: 799|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -31177,7 +31177,7 @@ MonoBehaviour:
       Data: 800|HunkSO+HexData, Assembly-CSharp
     - Name: prefabId
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: coordinates
       Entry: 7
       Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
@@ -31243,4 +31243,3 @@ MonoBehaviour:
       Data: 
   minCoords: {x: 1, y: 121}
   maxCoords: {x: 40, y: 140}
-  inited: 1

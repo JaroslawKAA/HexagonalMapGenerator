@@ -1,3 +1,4 @@
+using HexagonTilemapEditor;
 using UnityEngine;
 
 public class CustomHexagonalTileRule : HexagonalRuleTile

@@ -4,21 +4,22 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using UnityEngine;
 using System;
+using HexagonTilemapEditor;
 
 public class Hunk : SerializedMonoBehaviour
 {
     [ShowInInspector] [ReadOnly] [DictionaryDrawerSettings]
     private Dictionary<Vector2Int, HexTile> hexagonalTiles = new Dictionary<Vector2Int, HexTile>();
 
-    [ShowInInspector]
+    
+    // PROPERTIES
     public string AddresablePath { get; set; }
-
     public AsyncOperationHandle<HunkSO> AddresableOperation { get; set; }
-
     public IEnumerator PopulatingCoroutine { get; set; }
-
     public Action onDisabled { get; set; }
+    public MinMaxRange MinMaxRange { get; set; }
 
+    // PRIVATE
 
     private bool _isDestroying = false;
 

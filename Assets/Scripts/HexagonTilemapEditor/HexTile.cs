@@ -1,33 +1,67 @@
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 
-public class HexTile : MonoBehaviour
+namespace HexagonTilemapEditor
 {
-    [Title("Hex Tile")]
-    [SerializeField] private Vector2Int coordinates;
-    [SerializeField] private bool interactable;
-    [SerializeField] private int id;
-
-    [Title("Dependencies")]
-    [SerializeField] [Required]
-    private SpriteRenderer spriteRenderer;
-    
-    [SerializeField] [Required]
-    private PolygonCollider2D _collider2D;
-    
-    public SpriteRenderer SpriteRenderer => spriteRenderer;
-    public PolygonCollider2D Collider2D => _collider2D;
-
-
-    public void Init(
-        int id,
-        Vector2Int coordinates, 
-        bool interactable)
+    public class HexTile : MonoBehaviour
     {
-        this.id = id;
-        this.coordinates = coordinates;
-        this.interactable = interactable;
-        if (!interactable)
-            _collider2D.enabled = false;
+        // SERIALIZED
+        [Title("Hex Tile")]
+        [SerializeField] private Vector2Int coordinates;
+
+        [SerializeField] private bool interactable;
+        [SerializeField] private int id;
+
+        [Title("Dependencies")]
+        [SerializeField] [Required]
+        private SpriteRenderer spriteRenderer;
+
+        [SerializeField] [Required]
+        private GameObject _debugCanvas;
+
+        [SerializeField] [Required]
+        private TMP_Text _coordsText;
+
+        [SerializeField] [Required]
+        private TMP_Text _fText;
+
+        [SerializeField] [Required]
+        private TMP_Text _gText;
+
+        [SerializeField] [Required]
+        private TMP_Text _hText;
+
+
+        // PROPERTIES
+        public int ID => id;
+        public SpriteRenderer SpriteRenderer => spriteRenderer;
+        public bool Interactable => interactable;
+
+        // PUBLIC
+        public void Init(int id, Vector2Int coordinates, bool interactable,
+            bool debugCoords, bool debugPathFinding)
+        {
+            this.id = id;
+            this.coordinates = coordinates;
+            this.interactable = interactable;
+
+            if (debugCoords)
+            {
+                _debugCanvas.SetActive(true);
+
+                _coordsText.enabled = debugCoords;
+                _coordsText.text = $"({coordinates.x},{coordinates.y})";
+            }
+
+            if (debugPathFinding)
+            {
+                _debugCanvas.SetActive(true);
+
+                _fText.enabled = debugPathFinding;
+                _gText.enabled = debugPathFinding;
+                _hText.enabled = debugPathFinding;
+            }
+        }
     }
 }

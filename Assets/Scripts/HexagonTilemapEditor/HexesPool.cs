@@ -5,7 +5,7 @@ using UnityEngine;
 public class HexesPool : MonoBehaviour
 {
     [SerializeField] [Required]
-    private HexTile objectToPull;
+    private GameObject objectToPull;
 
     [SerializeField] [Required]
     private HexagonTilemapEditorSO _config;
@@ -13,40 +13,43 @@ public class HexesPool : MonoBehaviour
     [SerializeField] [ReadOnly]
     private int _amount;
 
-    private List<HexTile> _pooledHexes;
+    private Dictionary<int, GameObject> _pooledHexes;
 
+    private GameObject _tempObj;
+    
     private void Awake()
     {
+        // Keep reserve
         _amount = 15 * _config.HunkSize.x * _config.HunkSize.y;
 
-        _pooledHexes = new List<HexTile>();
-        HexTile tmp;
+        _pooledHexes = new Dictionary<int, GameObject>();
         for (int i = 0; i < _amount; i++)
         {
-            tmp = Instantiate(objectToPull);
-            tmp.gameObject.SetActive(false);
-            tmp.transform.parent = transform;
-            _pooledHexes.Add(tmp);
+            _tempObj = Instantiate(objectToPull);
+            _tempObj.gameObject.SetActive(false);
+            _tempObj.transform.parent = transform;
+            _pooledHexes.Add(i, _tempObj);
         }
     }
 
-    private HexTile _tmpLastHex;
-
-    public HexTile GetPulledObject()
+    private GameObject _swapTemp;
+    public GameObject GetPulledObject()
     {
-        for (int i = 0; i < _amount; i++)
-            if (!_pooledHexes[i].isActiveAndEnabled)
+
+        foreach (int key in _pooledHexes.Keys)
+        {
+            if (!_pooledHexes[key].activeSelf)
             {
-                _pooledHexes[i].gameObject.SetActive(true);
-
-                // Swap first and last elements in collection to speed up access
-                _tmpLastHex = _pooledHexes[_amount - 1];
-                _pooledHexes[_amount - 1] = _pooledHexes[i];
-                _pooledHexes[i] = _tmpLastHex;
-
-                return _pooledHexes[i];
+                _tempObj = _pooledHexes[key];
+                // Move object to end
+                _swapTemp = _pooledHexes[_amount - 1];
+                _pooledHexes[_amount - 1] = _tempObj;
+                _pooledHexes[key] = _swapTemp;
+                break;
             }
-
-        return null;
+        }
+        
+        _tempObj.gameObject.SetActive(true);
+        return _tempObj;
     }
 }
