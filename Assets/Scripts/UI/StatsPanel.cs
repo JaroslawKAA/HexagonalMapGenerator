@@ -1,16 +1,50 @@
+using HexagonTilemapEditor;
+using ScriptableObjectArchitecture;
+using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 
 public class StatsPanel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Title("Depend")]
+    [SerializeField] [Required]
+    private TMP_Text _statPrefab;
+
+    [SerializeField] [Required]
+    private HexTileGameEvent onHexSelected;
+
+    private void Awake()
     {
-        
+        onHexSelected.AddListener(OnHexSelected);
+        Hide();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnHexSelected(HexTile tile)
     {
+        if (tile)
+            DisplayStats(tile.Stats);
+        else
+            Hide();
+    }
+
+    public void DisplayStats(string[] stats)
+    {
+        CleanStats();
         
+        foreach (string stat in stats)
+        {
+            TMP_Text record = Instantiate(_statPrefab, transform);
+            record.text = stat;
+        }
+        
+        gameObject.SetActive(true);
+    }
+
+    public void Hide() => gameObject.SetActive(false);
+
+    private void CleanStats()
+    {
+        for (int i = transform.childCount - 1; i >= 0; i--) 
+            Destroy(transform.GetChild(i).gameObject);
     }
 }

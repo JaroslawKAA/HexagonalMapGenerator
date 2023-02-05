@@ -135,8 +135,9 @@ GameObject:
   - component: {fileID: 69513259}
   - component: {fileID: 69513258}
   - component: {fileID: 69513257}
+  - component: {fileID: 69513260}
   m_Layer: 5
-  m_Name: BG
+  m_Name: StatsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,12 +176,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Left: 20
+    m_Right: 20
+    m_Top: 20
+    m_Bottom: 20
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -226,6 +227,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69513255}
   m_CullTransparentMesh: 1
+--- !u!114 &69513260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69513255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cdad635a3f4c964c8e5e485e610aebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _statPrefab: {fileID: 1823265373554513185, guid: 67dd61da6aeeb7945a67917eceb3a8ac,
+    type: 3}
+  onHexSelected: {fileID: 11400000, guid: 6fce0a5f2a046ff4f8e02a20036bd62a, type: 2}
 --- !u!1 &203699886
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.21, y: 7.52, z: -10}
+  m_LocalPosition: {x: 46.9, y: 26.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7278,6 +7294,7 @@ MonoBehaviour:
   _grid: {fileID: 203699887}
   onTileSelected: {fileID: 11400000, guid: 6fce0a5f2a046ff4f8e02a20036bd62a, type: 2}
   _selectedHex: {fileID: 0}
+  _secondSelectedHex: {fileID: 0}
 --- !u!4 &759697676
 Transform:
   m_ObjectHideFlags: 0
@@ -7584,7 +7601,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

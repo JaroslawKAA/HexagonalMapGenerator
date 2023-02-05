@@ -37,6 +37,13 @@ namespace HexagonTilemapEditor
         public int ID => id;
         public SpriteRenderer SpriteRenderer => spriteRenderer;
         public bool Interactable => interactable;
+        public string[] Stats => new[]
+        {
+            $"Prefab Id: {id}",
+            $"Coordinates: ({coordinates.x},{coordinates.y})",
+            $"Interactable: {interactable}",
+            $"Sprite: {SpriteRenderer.sprite.name}"
+        };
 
         // PUBLIC
         public void Init(int id, Vector2Int coordinates, bool interactable,

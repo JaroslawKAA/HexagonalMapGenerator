@@ -46,7 +46,6 @@ public class HunksManagerSo : SerializedScriptableObject
     /// <returns>Hunk Path</returns>
     private string TryGetHunk(Vector2Int hunkPoint)
     {
-        // MinMaxRange hunkRange = hunks.Keys.FirstOrDefault(range => range.IsPointInRange(hunkPoint));
         MinMaxRange hunkRange = GetHunkRange(hunkPoint);
         if (hunks.ContainsKey(hunkRange))
             return hunks[hunkRange];
@@ -58,7 +57,6 @@ public class HunksManagerSo : SerializedScriptableObject
     {
         List<string> result = new List<string>();
 
-        // MinMaxRange hunkRange = hunks.Keys.FirstOrDefault(range => range.IsPointInRange(hunkPoint));
         MinMaxRange hunkRange = GetHunkRange(hunkPoint);
         if (!hunkRange.IsDefault)
         {
