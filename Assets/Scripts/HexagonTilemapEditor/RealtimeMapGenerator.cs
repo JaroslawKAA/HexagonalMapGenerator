@@ -46,11 +46,22 @@ public class RealtimeMapGenerator : MonoBehaviour
     private Action<string> onPathAdded;
     private Action<string> onPathRemoved;
 
+    // PROPS
+    public Hunk CurrentHunk
+    {
+        get
+        {
+            Vector3 mousePos = _camera.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = new Vector3(mousePos.x, mousePos.y, 0);
+            Vector2Int coords =  (Vector2Int)_grid.WorldToCell(mousePos);
+            return _hunks.FirstOrDefault(h => h.MinMaxRange.IsPointInRange(coords)); // TODO Refactor
+        }
+    }
 
     // PUBLIC
     public HexTile GetTile(Vector2Int tileCoords)
     {
-        Hunk hunk = _hunks.FirstOrDefault(h => h.MinMaxRange.IsPointInRange(tileCoords));
+        Hunk hunk = _hunks.FirstOrDefault(h => h.MinMaxRange.IsPointInRange(tileCoords)); // TODO Refactor
         if (!hunk) return default;
         return hunk.GetTile(tileCoords);
     }
@@ -101,11 +112,11 @@ public class RealtimeMapGenerator : MonoBehaviour
         Vector3Int cameraCell = _grid.WorldToCell(_camera.transform.position);
         _currentHunkPoint = new Vector2Int(cameraCell.y, cameraCell.x);
 
-        List<string> newPaths = _hunksManager.TryGetCurrentSet(_currentHunkPoint);
+        List<string> newAddressablePaths = _hunksManager.TryGetCurrentSet(_currentHunkPoint);
 
         // Remove not returned paths
-        _hunksPathsToRemove = _hunksPaths.Except(newPaths).ToList();
-        newPaths.ForEach(TryAddPath);
+        _hunksPathsToRemove = _hunksPaths.Except(newAddressablePaths).ToList();
+        newAddressablePaths.ForEach(TryAddPath);
         _hunksPathsToRemove.ForEach(RemovePath);
     }
 
@@ -194,7 +205,8 @@ public class RealtimeMapGenerator : MonoBehaviour
             coordinates: new Vector2Int(hexData.coordinates.x, hexData.coordinates.y),
             interactable: config.interactable,
             debugCoords: _debugCoords,
-            debugPathFinding: _debugPathFinding);
+            debugPathFinding: _debugPathFinding,
+            this);
 
         hexTile.transform.position = _grid.GetCellCenterWorld(
             new Vector3Int(

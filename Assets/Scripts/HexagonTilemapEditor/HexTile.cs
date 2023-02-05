@@ -9,7 +9,6 @@ namespace HexagonTilemapEditor
         // SERIALIZED
         [Title("Hex Tile")]
         [SerializeField] private Vector2Int coordinates;
-
         [SerializeField] private bool interactable;
         [SerializeField] private int id;
 
@@ -37,6 +36,7 @@ namespace HexagonTilemapEditor
         public int ID => id;
         public SpriteRenderer SpriteRenderer => spriteRenderer;
         public bool Interactable => interactable;
+        public Vector2Int Coordinates => coordinates;
         public string[] Stats => new[]
         {
             $"Prefab Id: {id}",
@@ -45,13 +45,17 @@ namespace HexagonTilemapEditor
             $"Sprite: {SpriteRenderer.sprite.name}"
         };
 
+        public PathNode PathNode { get; private set; }
+
         // PUBLIC
         public void Init(int id, Vector2Int coordinates, bool interactable,
-            bool debugCoords, bool debugPathFinding)
+            bool debugCoords, bool debugPathFinding, RealtimeMapGenerator realtimeMapGenerator)
         {
             this.id = id;
             this.coordinates = coordinates;
             this.interactable = interactable;
+
+            this.PathNode = new PathNode(realtimeMapGenerator, this);
 
             if (debugCoords)
             {
