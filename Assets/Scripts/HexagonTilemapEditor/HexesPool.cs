@@ -19,6 +19,7 @@ public class HexesPool : MonoBehaviour
     
     private void Awake()
     {
+        Debug.Log("Pooling hexes...");
         // Keep reserve
         _amount = 15 * _config.HunkSize.x * _config.HunkSize.y;
 
@@ -30,6 +31,7 @@ public class HexesPool : MonoBehaviour
             _tempObj.transform.parent = transform;
             _pooledHexes.Add(i, _tempObj);
         }
+        Debug.Log("Pooling hexes finished.");
     }
 
     private GameObject _swapTemp;

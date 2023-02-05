@@ -297,6 +297,7 @@ public partial class HexagonTilemapEditorSO : SerializedScriptableObject
         public int frequency = 100;
 
         public bool interactable = false;
+        public bool walkable = false;
     }
 }
 #endif

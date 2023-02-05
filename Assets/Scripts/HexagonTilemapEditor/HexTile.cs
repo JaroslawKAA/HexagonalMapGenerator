@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
@@ -44,16 +45,22 @@ namespace HexagonTilemapEditor
             $"Interactable: {interactable}",
             $"Sprite: {SpriteRenderer.sprite.name}"
         };
-
         public PathNode PathNode { get; private set; }
+        public static Dictionary<Vector2Int, HexTile> OnScreenTiles => _onScreenTiles;
+        public bool IsWalkable { get; private set; }
+
+        // PRIVATE
+        [ShowInInspector]
+        private static Dictionary<Vector2Int, HexTile> _onScreenTiles = new();
 
         // PUBLIC
-        public void Init(int id, Vector2Int coordinates, bool interactable,
+        public void Init(int id, Vector2Int coordinates, bool interactable, bool isWalkable,
             bool debugCoords, bool debugPathFinding, RealtimeMapGenerator realtimeMapGenerator)
         {
             this.id = id;
             this.coordinates = coordinates;
             this.interactable = interactable;
+            this.IsWalkable = isWalkable;
 
             this.PathNode = new PathNode(realtimeMapGenerator, this);
 
@@ -64,15 +71,39 @@ namespace HexagonTilemapEditor
                 _coordsText.enabled = debugCoords;
                 _coordsText.text = $"({coordinates.x},{coordinates.y})";
             }
+        }
 
-            if (debugPathFinding)
-            {
-                _debugCanvas.SetActive(true);
+        public void DebugPath()
+        {
+            _debugCanvas.SetActive(true);
 
-                _fText.enabled = debugPathFinding;
-                _gText.enabled = debugPathFinding;
-                _hText.enabled = debugPathFinding;
-            }
+            _fText.enabled = true;
+            _gText.enabled = true;
+            _hText.enabled = true;
+
+            _fText.text = PathNode.fCost.ToString();
+            _gText.text = PathNode.gCost.ToString();
+            _hText.text = PathNode.hCost.ToString();
+        }
+        
+        public void ClearPathDebug()
+        {
+            _debugCanvas.SetActive(false);
+
+            _fText.enabled = false;
+            _gText.enabled = false;
+            _hText.enabled = false;
+        }
+
+        // EVENT
+        private void OnBecameVisible()
+        {
+            _onScreenTiles[this.Coordinates] = this;
+        }
+
+        private void OnBecameInvisible()
+        {
+            _onScreenTiles.Remove(this.Coordinates);
         }
     }
 }

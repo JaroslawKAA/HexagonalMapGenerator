@@ -47,16 +47,8 @@ public class RealtimeMapGenerator : MonoBehaviour
     private Action<string> onPathRemoved;
 
     // PROPS
-    public Hunk CurrentHunk
-    {
-        get
-        {
-            Vector3 mousePos = _camera.ScreenToWorldPoint(Input.mousePosition);
-            mousePos = new Vector3(mousePos.x, mousePos.y, 0);
-            Vector2Int coords =  (Vector2Int)_grid.WorldToCell(mousePos);
-            return _hunks.FirstOrDefault(h => h.MinMaxRange.IsPointInRange(coords)); // TODO Refactor
-        }
-    }
+    public Grid Grid => _grid;
+
 
     // PUBLIC
     public HexTile GetTile(Vector2Int tileCoords)
@@ -204,6 +196,7 @@ public class RealtimeMapGenerator : MonoBehaviour
             id: config.id,
             coordinates: new Vector2Int(hexData.coordinates.x, hexData.coordinates.y),
             interactable: config.interactable,
+            isWalkable: config.walkable,
             debugCoords: _debugCoords,
             debugPathFinding: _debugPathFinding,
             this);

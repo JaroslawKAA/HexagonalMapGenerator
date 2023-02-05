@@ -148,8 +148,6 @@ public class HunksManagerSo : SerializedScriptableObject
         else if (hunkPoint.y < 0)
             _cachedMinY = hunkPoint.y - -_minYModulo;
 
-        Debug.Log($"GetHunkRange: {_cachedMinX + _mapConfig.startXIndex}_{_cachedMinY + _mapConfig.startYIndex}_" +
-                  $"{_cachedMinX + _mapConfig.HunkSize.x}_{_cachedMinY + _mapConfig.HunkSize.y}");
         return new MinMaxRange(
             minX: _minxModulo != 0
                 ? _cachedMinX + _mapConfig.startXIndex

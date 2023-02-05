@@ -16,7 +16,6 @@ public class Hunk : SerializedMonoBehaviour
 
     private bool _isDestroying = false;
 
-
     // PROPERTIES
     public string AddresablePath { get; set; }
     public AsyncOperationHandle<HunkSO> AddresableOperation { get; set; }
@@ -24,17 +23,10 @@ public class Hunk : SerializedMonoBehaviour
     public Action onDisabled { get; set; }
     public MinMaxRange MinMaxRange { get; set; }
     public Dictionary<Vector2Int, HexTile> HexagonalTiles => hexagonalTiles;
-    public int Height { get; private set; } = 0;
-    public int Width { get; private set; } = 0;
     
     public void RegisterTile(Vector2Int key, HexTile hexTile)
     {
-        if (!_isDestroying)
-        {
-            hexagonalTiles[key] = hexTile;
-            Height = Mathf.Max(Height, key.y + 1);
-            Width = Mathf.Max(Width, key.x + 1);
-        }
+        if (!_isDestroying) hexagonalTiles[key] = hexTile;
     }
 
     public void CustomDestroy()
