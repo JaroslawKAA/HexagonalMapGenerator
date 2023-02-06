@@ -55,9 +55,9 @@ public class SelectionManager : MonoBehaviour
 
     private void DebugNeighbors()
     {
-        foreach (PathNode node in _selectedNeighbors) 
+        foreach (PathNode node in _selectedNeighbors)
             Gizmos.DrawWireSphere(node.HexTile.transform.position, .25f);
-        foreach (PathNode node in _secondSelectedNeighbors) 
+        foreach (PathNode node in _secondSelectedNeighbors)
             Gizmos.DrawWireSphere(node.HexTile.transform.position, .25f);
     }
 
@@ -74,10 +74,10 @@ public class SelectionManager : MonoBehaviour
 
     private void HandleSelection()
     {
-        ClearPathDebug();
-        
         if (Input.GetMouseButtonDown(0))
         {
+            ClearPathDebug();
+
             if (!_selectedHex)
             {
                 _selectedHex = TrySelect();
@@ -106,11 +106,17 @@ public class SelectionManager : MonoBehaviour
                     _selectedHex = null;
                 else
                 {
-                    _secondSelectedNeighbors = 
+                    _secondSelectedNeighbors =
                         GetNeighbors(_secondSelectedHex.PathNode, HexTile.OnScreenTiles);
-                    _pathToSecondSelected = _pathfinding
-                        .FindPathOnScreen(_selectedHex.Coordinates, _secondSelectedHex.Coordinates);
-                    DebugPath();
+
+                    // If selected yellow tiles (first and last)
+                    if (_secondSelectedHex.ID == 2 && _selectedHex.ID == 2)
+                    {
+                        // Find path
+                        _pathToSecondSelected = _pathfinding
+                            .FindPathOnScreen(_selectedHex.Coordinates, _secondSelectedHex.Coordinates);
+                        DebugPath();
+                    }
                 }
             }
         }
@@ -120,7 +126,7 @@ public class SelectionManager : MonoBehaviour
     // PRIVATE
     void DebugPath() => _pathToSecondSelected.ForEach(p => p.HexTile.DebugPath());
     void ClearPathDebug() => _pathToSecondSelected.ForEach(p => p.HexTile.ClearPathDebug());
-    
+
     private HexTile TrySelect()
     {
         _mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
@@ -129,7 +135,7 @@ public class SelectionManager : MonoBehaviour
         _selectedTemp = _realtimeMapGenerator.GetTile(new Vector2Int(_tileUnderMouseCords.y, _tileUnderMouseCords.x));
         return _selectedTemp != null && _selectedTemp.Interactable ? _selectedTemp : null;
     }
-    
+
     private readonly Vector2Int[] EVEN_COLS_NEIGHBOR_DIFFERENCES = new[]
     {
         new Vector2Int(1, 1), new Vector2Int(1, 0),
@@ -143,7 +149,7 @@ public class SelectionManager : MonoBehaviour
         new Vector2Int(0, -1), new Vector2Int(-1, -1),
         new Vector2Int(-1, 0), new Vector2Int(0, 1),
     };
-    
+
     private List<PathNode> GetNeighbors(PathNode pathNode, Dictionary<Vector2Int, HexTile> hexes)
     {
         List<PathNode> result = new List<PathNode>();
@@ -160,19 +166,19 @@ public class SelectionManager : MonoBehaviour
 
         return result;
     }
-    
+
     private void OnDrawGizmos()
     {
         DebugNeighbors();
 
-        if(!EditorApplication.isPlaying
-           || _pathToSecondSelected.Count == 0) return;
-        
+        if (!EditorApplication.isPlaying
+            || _pathToSecondSelected.Count == 0) return;
+
         Gizmos.color = Color.green;
-        Vector3 firstPos = _grid.CellToWorld((Vector3Int)_pathToSecondSelected[0].HexTile.Coordinates);
+        Vector3 firstPos = _pathToSecondSelected[0].HexTile.transform.position;
         for (int i = 1; i < _pathToSecondSelected.Count; i++)
         {
-            Vector3 secondPos = _grid.CellToWorld((Vector3Int)_pathToSecondSelected[i].HexTile.Coordinates);
+            Vector3 secondPos = _pathToSecondSelected[i].HexTile.transform.position;
             Gizmos.DrawLine(firstPos, secondPos);
             firstPos = secondPos;
         }
