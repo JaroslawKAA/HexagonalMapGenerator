@@ -4,47 +4,54 @@ using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
 
-public class StatsPanel : MonoBehaviour
+namespace UI
 {
-    [Title("Depend")]
-    [SerializeField] [Required]
-    private TMP_Text _statPrefab;
-
-    [SerializeField] [Required]
-    private HexTileGameEvent onHexSelected;
-
-    private void Awake()
+    public class StatsPanel : MonoBehaviour
     {
-        onHexSelected.AddListener(OnHexSelected);
-        Hide();
-    }
+        // SERIALIZED
+        [Title("Depend")]
+        [SerializeField] [Required]
+        private TMP_Text _statPrefab;
 
-    private void OnHexSelected(HexTile tile)
-    {
-        if (tile)
-            DisplayStats(tile.Stats);
-        else
-            Hide();
-    }
+        [SerializeField] [Required]
+        private HexTileGameEvent onHexSelected;
 
-    public void DisplayStats(string[] stats)
-    {
-        CleanStats();
-        
-        foreach (string stat in stats)
+        // EVENT
+        private void Awake()
         {
-            TMP_Text record = Instantiate(_statPrefab, transform);
-            record.text = stat;
+            onHexSelected.AddListener(OnHexSelected);
+            Hide();
         }
+
+        // PUBLIC
+        public void DisplayStats(string[] stats)
+        {
+            CleanStats();
         
-        gameObject.SetActive(true);
-    }
+            foreach (string stat in stats)
+            {
+                TMP_Text record = Instantiate(_statPrefab, transform);
+                record.text = stat;
+            }
+        
+            gameObject.SetActive(true);
+        }
 
-    public void Hide() => gameObject.SetActive(false);
+        public void Hide() => gameObject.SetActive(false);
+        
+        // PRIVATE
+        private void OnHexSelected(HexTile tile)
+        {
+            if (tile)
+                DisplayStats(tile.Stats);
+            else
+                Hide();
+        }
 
-    private void CleanStats()
-    {
-        for (int i = transform.childCount - 1; i >= 0; i--) 
-            Destroy(transform.GetChild(i).gameObject);
+        private void CleanStats()
+        {
+            for (int i = transform.childCount - 1; i >= 0; i--) 
+                Destroy(transform.GetChild(i).gameObject);
+        }
     }
 }

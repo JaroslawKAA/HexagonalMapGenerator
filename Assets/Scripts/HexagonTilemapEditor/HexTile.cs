@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using PathFinding;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
@@ -14,24 +15,12 @@ namespace HexagonTilemapEditor
         [SerializeField] private int id;
 
         [Title("Dependencies")]
-        [SerializeField] [Required]
-        private SpriteRenderer spriteRenderer;
-
-        [SerializeField] [Required]
-        private GameObject _debugCanvas;
-
-        [SerializeField] [Required]
-        private TMP_Text _coordsText;
-
-        [SerializeField] [Required]
-        private TMP_Text _fText;
-
-        [SerializeField] [Required]
-        private TMP_Text _gText;
-
-        [SerializeField] [Required]
-        private TMP_Text _hText;
-
+        [SerializeField] [Required] private SpriteRenderer spriteRenderer;
+        [SerializeField] [Required] private GameObject _debugCanvas;
+        [SerializeField] [Required] private TMP_Text _coordsText;
+        [SerializeField] [Required] private TMP_Text _fText;
+        [SerializeField] [Required] private TMP_Text _gText;
+        [SerializeField] [Required] private TMP_Text _hText;
 
         // PROPERTIES
         public int ID => id;
@@ -50,19 +39,18 @@ namespace HexagonTilemapEditor
         public bool IsWalkable { get; private set; }
 
         // PRIVATE
-        [ShowInInspector]
         private static Dictionary<Vector2Int, HexTile> _onScreenTiles = new();
 
         // PUBLIC
         public void Init(int id, Vector2Int coordinates, bool interactable, bool isWalkable,
-            bool debugCoords, bool debugPathFinding, RealtimeMapGenerator realtimeMapGenerator)
+            bool debugCoords, RuntimeMapLoader runtimeMapLoader)
         {
             this.id = id;
             this.coordinates = coordinates;
             this.interactable = interactable;
             this.IsWalkable = isWalkable;
 
-            this.PathNode = new PathNode(realtimeMapGenerator, this);
+            this.PathNode = new PathNode(runtimeMapLoader, this);
 
             if (debugCoords)
             {
@@ -73,6 +61,9 @@ namespace HexagonTilemapEditor
             }
         }
 
+        /// <summary>
+        /// Display costs (of A* algorithm) values
+        /// </summary>
         public void DebugPath()
         {
             _debugCanvas.SetActive(true);

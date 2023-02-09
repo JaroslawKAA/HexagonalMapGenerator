@@ -1,31 +1,37 @@
 using System;
 using HexagonTilemapEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-[Serializable]
-public class PathNode
+namespace PathFinding
 {
-    [SerializeField]
-    private RealtimeMapGenerator _realtimeMapGenerator;
-
-    [SerializeField]
-    private HexTile _hexTile;
-
-    public int gCost;
-    public int hCost;
-    public int fCost;
-
-    public PathNode cameFromNode;
-
-    public HexTile HexTile => _hexTile;
-
-    public PathNode(RealtimeMapGenerator realtimeMapGenerator, HexTile hexTile)
+    [Serializable]
+    public class PathNode
     {
-        _realtimeMapGenerator = realtimeMapGenerator;
-        _hexTile = hexTile;
-    }
-    
-    public override string ToString() => $"{_hexTile.Coordinates.x},{_hexTile.Coordinates.y}";
+        // SERIALIZED
+        [FormerlySerializedAs("_realtimeMapGenerator")] [SerializeField]
+        private RuntimeMapLoader runtimeMapLoader;
 
-    public void CalculateFCost() => fCost = gCost + hCost;
+        [SerializeField]
+        private HexTile _hexTile;
+
+        public int gCost;
+        public int hCost;
+        public int fCost;
+
+        public PathNode cameFromNode;
+
+        // PROPERTIES
+        public HexTile HexTile => _hexTile;
+
+        // PUBLIC
+        public PathNode(RuntimeMapLoader runtimeMapLoader, HexTile hexTile)
+        {
+            this.runtimeMapLoader = runtimeMapLoader;
+            _hexTile = hexTile;
+        }
+
+        public void CalculateFCost() => fCost = gCost + hCost;
+        public override string ToString() => $"{_hexTile.Coordinates.x},{_hexTile.Coordinates.y}";
+    }
 }

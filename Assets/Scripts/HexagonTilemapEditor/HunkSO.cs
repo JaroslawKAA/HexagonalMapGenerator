@@ -1,86 +1,66 @@
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
-using UnityEngine;
 using UnityEditor;
-using System;
+using UnityEngine;
+using Utils;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Level/Hunk", fileName = "HunkSO", order = 0)]
-public class HunkSO : SerializedScriptableObject
+namespace HexagonTilemapEditor
 {
-    // SERIALIZED
-    [SerializeField] 
-    [DictionaryDrawerSettings(IsReadOnly = true, KeyLabel = "coords", ValueLabel = "hex", DisplayMode = DictionaryDisplayOptions.OneLine)]
-    private Dictionary<Vector2Int, HexData> _hexes = new Dictionary<Vector2Int, HexData>();
-
-    [SerializeField] [ReadOnly]
-    private Vector2Int minCoords;
-
-    [SerializeField] [ReadOnly]
-    private Vector2Int maxCoords;
-
-    // PRIVATE
-
-    private bool inited = false;
-
-    // PROPERTIES
-    public Vector2Int MinCoords
+    [CreateAssetMenu(menuName = "Scriptable Objects/Level/Hunk", fileName = "HunkSO", order = 0)]
+    public class HunkSO : SerializedScriptableObject
     {
-        get => minCoords;
-        set => minCoords = value;
-    }
+        // SERIALIZED
+        [SerializeField] 
+        [DictionaryDrawerSettings(IsReadOnly = true, KeyLabel = "coords", ValueLabel = "hex", DisplayMode = DictionaryDisplayOptions.OneLine)]
+        private Dictionary<Vector2Int, HexData> _hexes = new Dictionary<Vector2Int, HexData>();
 
-    public Vector2Int MaxCoords
-    {
-        get => maxCoords;
-        set => maxCoords = value;
-    }
+        [SerializeField] [ReadOnly] private Vector2Int minCoords;
+        [SerializeField] [ReadOnly] private Vector2Int maxCoords;
 
-    public Dictionary<Vector2Int, HexData> Hexes => _hexes;
-    
-    public MinMaxRange MinMaxRange =>
-        new MinMaxRange(minCoords.x, minCoords.y, maxCoords.x, maxCoords.y);
+        // PRIVATE
+        private bool inited = false;
 
-    // PUBLIC
-    public void AddHex(HexData hex)
-    {
-        _hexes.Add(hex.coordinates, hex);
-        UpdateRange(hex.coordinates);
-        
-        EditorUtility.SetDirty(this);
-        AssetDatabase.SaveAssets();
-    }
-    
-    // PRIVATE
-    private void UpdateRange(Vector2Int newCoords)
-    {
-        if (!inited)
+        // PROPERTIES
+        public Vector2Int MinCoords
         {
-            minCoords = newCoords;
-            maxCoords = newCoords;
-
-            inited = true;
+            get => minCoords;
+            set => minCoords = value;
         }
 
-        minCoords.x = Mathf.Min(minCoords.x, newCoords.x);
-        minCoords.y = Mathf.Min(minCoords.y, newCoords.y);
-        maxCoords.x = Mathf.Max(maxCoords.x, newCoords.x);
-        maxCoords.y = Mathf.Max(maxCoords.y, newCoords.y);
-    }
-    
-    [Serializable]
-    [HideReferenceObjectPicker]
-    public class HexData
-    {
-        [ReadOnly]
-        public int prefabId;
-        
-        [ReadOnly]
-        public Vector2Int coordinates;
-
-        public HexData(int prefabId, Vector2Int coordinates)
+        public Vector2Int MaxCoords
         {
-            this.prefabId = prefabId;
-            this.coordinates = coordinates;
+            get => maxCoords;
+            set => maxCoords = value;
+        }
+
+        public Dictionary<Vector2Int, HexData> Hexes => _hexes;
+        public MinMaxRange MinMaxRange => new(minCoords.x, minCoords.y, maxCoords.x, maxCoords.y);
+
+        // PUBLIC
+        public void AddHex(HexData hex)
+        {
+            _hexes.Add(hex.coordinates, hex);
+            UpdateRange(hex.coordinates);
+        
+            EditorUtility.SetDirty(this);
+            AssetDatabase.SaveAssets();
+        }
+    
+        // PRIVATE
+        private void UpdateRange(Vector2Int newCoords)
+        {
+            if (!inited)
+            {
+                minCoords = newCoords;
+                maxCoords = newCoords;
+
+                inited = true;
+            }
+
+            minCoords.x = Mathf.Min(minCoords.x, newCoords.x);
+            minCoords.y = Mathf.Min(minCoords.y, newCoords.y);
+            maxCoords.x = Mathf.Max(maxCoords.x, newCoords.x);
+            maxCoords.y = Mathf.Max(maxCoords.y, newCoords.y);
         }
     }
 }

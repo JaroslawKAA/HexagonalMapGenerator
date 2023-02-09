@@ -1,50 +1,48 @@
-using UnityEngine.ResourceManagement.AsyncOperations;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
-using System.Collections;
 using UnityEngine;
-using System;
-using HexagonTilemapEditor;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using Utils;
 
-public class Hunk : SerializedMonoBehaviour
+namespace HexagonTilemapEditor
 {
-    // SERIALIZED
-    [ShowInInspector] [ReadOnly] [DictionaryDrawerSettings]
-    private Dictionary<Vector2Int, HexTile> hexagonalTiles = new Dictionary<Vector2Int, HexTile>();
-    
-    // PRIVATE
-
-    private bool _isDestroying = false;
-
-    // PROPERTIES
-    public string AddresablePath { get; set; }
-    public AsyncOperationHandle<HunkSO> AddresableOperation { get; set; }
-    public IEnumerator PopulatingCoroutine { get; set; }
-    public Action onDisabled { get; set; }
-    public MinMaxRange MinMaxRange { get; set; }
-    public Dictionary<Vector2Int, HexTile> HexagonalTiles => hexagonalTiles;
-    
-    public void RegisterTile(Vector2Int key, HexTile hexTile)
+    public class Hunk : SerializedMonoBehaviour
     {
-        if (!_isDestroying) hexagonalTiles[key] = hexTile;
-    }
+        // SERIALIZED
+        [ShowInInspector] [SerializeField] [ReadOnly]
+        private Dictionary<Vector2Int, HexTile> hexagonalTiles = new Dictionary<Vector2Int, HexTile>();
 
-    public void CustomDestroy()
-    {
-        _isDestroying = true;
-        gameObject.name = gameObject.name + "TO_DESTROY";
-        AddresablePath = "";
-        
-        Destroy(gameObject);
-    }
+        // PRIVATE
+        private bool _isDestroying = false;
 
-    public HexTile GetTile(Vector2Int coords)
-    {
-        return hexagonalTiles[coords];
-    }
+        // PROPERTIES
+        public string AddressablePath { get; set; }
+        public AsyncOperationHandle<HunkSO> AddressableOperation { get; set; }
+        public IEnumerator PopulatingCoroutine { get; set; }
+        public MinMaxRange MinMaxRange { get; set; }
+        public Dictionary<Vector2Int, HexTile> HexagonalTiles => hexagonalTiles;
+        public Action onDisabled { get; set; }
 
-    private void OnDisable()
-    {
-        onDisabled?.Invoke();
+        // PUBLIC
+        public void RegisterTile(Vector2Int key, HexTile hexTile)
+        {
+            if (!_isDestroying) hexagonalTiles[key] = hexTile;
+        }
+
+        public void CustomDestroy()
+        {
+            _isDestroying = true;
+            gameObject.name = gameObject.name + "TO_DESTROY";
+            AddressablePath = "";
+
+            Destroy(gameObject);
+        }
+
+        public HexTile GetTile(Vector2Int coords) => hexagonalTiles[coords];
+
+        // EVENT
+        private void OnDisable() => onDisabled?.Invoke();
     }
 }

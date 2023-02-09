@@ -15,7 +15,7 @@ public class HexagonTilemapEditorWindow : OdinEditorWindow
 
     protected override object GetTarget()
     {
-        return AssetDatabase.LoadAssetAtPath<HexagonTilemapEditorSO>("Assets/ScriptableObjects/HexagonTilemapEditor/config.asset");
+        return AssetDatabase.LoadAssetAtPath<HexagonTilemapEditor.HexagonTilemapEditorSO>("Assets/ScriptableObjects/HexagonTilemapEditor/config.asset");
     }
 }
 #endif
